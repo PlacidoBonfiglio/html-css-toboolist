@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+.top{
+    background-color: red;
+    height: 100px;
+}
+
+img{
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+h1{
+    display: inline;
+    vertical-align: middle;
+}
+
+/* body */
+.container{
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+button{
+    text-decoration: none;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 12px;
+}
+
+button.add-task{
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+button.add-section{
+        color: grey;
+        background-color: white;
+        border: 1px solid grey;
+    }
